@@ -1,0 +1,5478 @@
+`http://tracker.archiveteam.org:1337/status`
+
+```
+<div ng-controller="StatsController" class="container-fluid ng-scope">
+<h2>Shortener Projects</h2>
+<p>Click on header to show project settings</p>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['bitly_6']=!body['bitly_6']">
+ ✦  bitly_6
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['bitly_6'][0]|number">1,764,632,421</td>
+<td class="table-number ng-binding" ng-bind="stats.project['bitly_6'][1]|number">4,995,927,550</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['bitly_6']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>11</dd>
+<dt>Minimum pipeline version</dt>
+<dd>8</dd>
+<dt>URL</dt>
+<dd><code>http://bit.ly/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>410 502</dd>
+<dt>Banned status</dt>
+<dd>403</dd>
+</dl>
+<a href="/api/project_settings?name=bitly_6">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['flip-it']=!body['flip-it']">
+ ✦  flip-it
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['flip-it'][0]|number">158,685,617</td>
+<td class="table-number ng-binding" ng-bind="stats.project['flip-it'][1]|number">429,396,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['flip-it']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://flip.it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 504</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=flip-it">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['lnq-me']=!body['lnq-me']">
+ ✦  lnq-me
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['lnq-me'][0]|number">6</td>
+<td class="table-number ng-binding" ng-bind="stats.project['lnq-me'][1]|number">29,856,500</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['lnq-me']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>46</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://lnq.me/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=lnq-me">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['sharedby-co_6']=!body['sharedby-co_6']">
+ ✦  sharedby-co_6
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['sharedby-co_6'][0]|number">1,765,217</td>
+<td class="table-number ng-binding" ng-bind="stats.project['sharedby-co_6'][1]|number">90,996,100</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['sharedby-co_6']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>32</dd>
+<dt>Minimum pipeline version</dt>
+<dd>8</dd>
+<dt>URL</dt>
+<dd><code>http://sharedby.co/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd>&lt;iframe id="[^"]+" src="(.*?)(?:"&gt;|\r\n|\n)</dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>200 301</dd>
+<dt>No redirect status</dt>
+<dd>302 404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=sharedby-co_6">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['theguardian-com']=!body['theguardian-com']">
+ ✦  theguardian-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['theguardian-com'][0]|number">275,554</td>
+<td class="table-number ng-binding" ng-bind="stats.project['theguardian-com'][1]|number">4,192,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['theguardian-com']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>46</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>https://www.theguardian.com/p/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=theguardian-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tinyurl_7']=!body['tinyurl_7']">
+ ✦  tinyurl_7
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tinyurl_7'][0]|number">728,342,649</td>
+<td class="table-number ng-binding" ng-bind="stats.project['tinyurl_7'][1]|number">3,494,644,500</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tinyurl_7']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>41</dd>
+<dt>Minimum pipeline version</dt>
+<dd>8</dd>
+<dt>URL</dt>
+<dd><code>http://tinyurl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.8</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>200 301 307</dd>
+<dt>No redirect status</dt>
+<dd>404 520</dd>
+<dt>Unavailable status</dt>
+<dd>302 502 500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tinyurl_7">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['u4-hu']=!body['u4-hu']">
+ ✦  u4-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['u4-hu'][0]|number">24,190</td>
+<td class="table-number ng-binding" ng-bind="stats.project['u4-hu'][1]|number">56,365,900</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['u4-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>8</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://u4.hu/x/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>2.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=u4-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['vgd_6']=!body['vgd_6']">
+ ✦  vgd_6
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['vgd_6'][0]|number">10,510,033</td>
+<td class="table-number ng-binding" ng-bind="stats.project['vgd_6'][1]|number">2,323,689,800</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['vgd_6']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>34</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>https://v.gd/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_</code></dd>
+<dt>Delay</dt>
+<dd>1.2</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429 502</dd>
+</dl>
+<a href="/api/project_settings?name=vgd_6">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['0rz-tw']=!body['0rz-tw']">
+ 0rz-tw
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['0rz-tw'][0]|number">23,009,383</td>
+<td class="table-number ng-binding" ng-bind="stats.project['0rz-tw'][1]|number">904,730,750</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['0rz-tw']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://0rz.tw/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=0rz-tw">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['1r-hu']=!body['1r-hu']">
+ 1r-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['1r-hu'][0]|number">536,379</td>
+<td class="table-number ng-binding" ng-bind="stats.project['1r-hu'][1]|number">1,346,050</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['1r-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>12</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://1r.hu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>307</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=1r-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['2-gp']=!body['2-gp']">
+ 2-gp
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['2-gp'][0]|number">260,963</td>
+<td class="table-number ng-binding" ng-bind="stats.project['2-gp'][1]|number">17,781,039</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['2-gp']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>44</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://2.gp/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^/$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 503</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=2-gp">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['2-ly']=!body['2-ly']">
+ 2-ly
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['2-ly'][0]|number">78,529</td>
+<td class="table-number ng-binding" ng-bind="stats.project['2-ly'][1]|number">21,739,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['2-ly']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>44</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://2.ly/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^/$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 503</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=2-ly">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['2jump-info']=!body['2jump-info']">
+ 2jump-info
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['2jump-info'][0]|number">3</td>
+<td class="table-number ng-binding" ng-bind="stats.project['2jump-info'][1]|number">298,949</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['2jump-info']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>12</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://2jump.info/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_.</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd>&lt;a href='([^']+)' rel='nofollow' target='_self' id='tovabbbtn'</dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>200</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>301</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=2jump-info">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['7-ly']=!body['7-ly']">
+ 7-ly
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['7-ly'][0]|number">8,893,391</td>
+<td class="table-number ng-binding" ng-bind="stats.project['7-ly'][1]|number">41,660,850</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['7-ly']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://7.ly/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^(/|http://7.ly/)$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404 503</dd>
+<dt>Unavailable status</dt>
+<dd>200 410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=7-ly">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['a-gg']=!body['a-gg']">
+ a-gg
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['a-gg'][0]|number">292</td>
+<td class="table-number ng-binding" ng-bind="stats.project['a-gg'][1]|number">17,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['a-gg']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://a.gg/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=a-gg">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['adjix']=!body['adjix']">
+ adjix
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['adjix'][0]|number">1,078,414</td>
+<td class="table-number ng-binding" ng-bind="stats.project['adjix'][1]|number">8,615,100</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['adjix']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>28</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://adjix.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>200</dd>
+<dt>No redirect status</dt>
+<dd>403 404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=adjix">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['alturl-com']=!body['alturl-com']">
+ alturl-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['alturl-com'][0]|number">5,402,715</td>
+<td class="table-number ng-binding" ng-bind="stats.project['alturl-com'][1]|number">39,367,900</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['alturl-com']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>38</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://alturl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>200 301</dd>
+<dt>Unavailable status</dt>
+<dd>410 401</dd>
+<dt>Banned status</dt>
+<dd>420 429 403</dd>
+</dl>
+<a href="/api/project_settings?name=alturl-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['ar-gy']=!body['ar-gy']">
+ ar-gy
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['ar-gy'][0]|number">1,385,421</td>
+<td class="table-number ng-binding" ng-bind="stats.project['ar-gy'][1]|number">3,303,100</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['ar-gy']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>16</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://ar.gy/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=ar-gy">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['arseh-at']=!body['arseh-at']">
+ arseh-at
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['arseh-at'][0]|number">420,148</td>
+<td class="table-number ng-binding" ng-bind="stats.project['arseh-at'][1]|number">1,842,350</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['arseh-at']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>23</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://arseh.at/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=arseh-at">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['awe-sm']=!body['awe-sm']">
+ awe-sm
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['awe-sm'][0]|number">42,069,841</td>
+<td class="table-number ng-binding" ng-bind="stats.project['awe-sm'][1]|number">967,591,000</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['awe-sm']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>20</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://awe.sm/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>0</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=awe-sm">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['bit-do']=!body['bit-do']">
+ bit-do
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['bit-do'][0]|number">3,737,471</td>
+<td class="table-number ng-binding" ng-bind="stats.project['bit-do'][1]|number">15,950,550</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['bit-do']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://bit.do/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=bit-do">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['bull-hn']=!body['bull-hn']">
+ bull-hn
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['bull-hn'][0]|number">3,154,708</td>
+<td class="table-number ng-binding" ng-bind="stats.project['bull-hn'][1]|number">28,861,855</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['bull-hn']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>39</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://bull.hn/l/{shortcode}/</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>http://www.bullhornreach\.com/home</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=bull-hn">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['burl-se']=!body['burl-se']">
+ burl-se
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['burl-se'][0]|number">1,375</td>
+<td class="table-number ng-binding" ng-bind="stats.project['burl-se'][1]|number">11,700</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['burl-se']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>3</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://burl.se/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdef</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd></dd>
+</dl>
+<a href="/api/project_settings?name=burl-se">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['ccl-hu']=!body['ccl-hu']">
+ ccl-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['ccl-hu'][0]|number">4</td>
+<td class="table-number ng-binding" ng-bind="stats.project['ccl-hu'][1]|number">97,261</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['ccl-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>44</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://ccl.hu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^http://services\.coldline\.hu/isloggedin\.php</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=ccl-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['chilp-it']=!body['chilp-it']">
+ chilp-it
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['chilp-it'][0]|number">150</td>
+<td class="table-number ng-binding" ng-bind="stats.project['chilp-it'][1]|number">198,010</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['chilp-it']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>44</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://chilp-it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.6</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^http://chilp\.it/404\.php|http://localhost$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=chilp-it">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['cutt-us']=!body['cutt-us']">
+ cutt-us
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['cutt-us'][0]|number">12,676,997</td>
+<td class="table-number ng-binding" ng-bind="stats.project['cutt-us'][1]|number">78,596,278</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['cutt-us']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://cutt.us/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.6</dd>
+<dt>Parse regex</dt>
+<dd>&lt;META http-equiv="refresh" content="[0-9]+;URL=([^"]+)"</dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>200</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>410 301</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=cutt-us">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['da-gd']=!body['da-gd']">
+ da-gd
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['da-gd'][0]|number">94,400</td>
+<td class="table-number ng-binding" ng-bind="stats.project['da-gd'][1]|number">902,018,849</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['da-gd']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>44</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://da.gd/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=da-gd">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['db-tt']=!body['db-tt']">
+ db-tt
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['db-tt'][0]|number">21</td>
+<td class="table-number ng-binding" ng-bind="stats.project['db-tt'][1]|number">43,421,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['db-tt']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://db.tt/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 503</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=db-tt">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['df4-us']=!body['df4-us']">
+ df4-us
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['df4-us'][0]|number">25,133</td>
+<td class="table-number ng-binding" ng-bind="stats.project['df4-us'][1]|number">47,850</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['df4-us']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://df4.us/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404 302</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=df4-us">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['dld-bz']=!body['dld-bz']">
+ dld-bz
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['dld-bz'][0]|number">8,639,481</td>
+<td class="table-number ng-binding" ng-bind="stats.project['dld-bz'][1]|number">48,897,650</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['dld-bz']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://dld.bz/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>\.dld\.bz\?not_found=</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=dld-bz">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['dwurl-hu']=!body['dwurl-hu']">
+ dwurl-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['dwurl-hu'][0]|number">1</td>
+<td class="table-number ng-binding" ng-bind="stats.project['dwurl-hu'][1]|number">3,473,050</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['dwurl-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://dwurl.hu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=dwurl-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['feedly_8']=!body['feedly_8']">
+ feedly_8
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['feedly_8'][0]|number">63</td>
+<td class="table-number ng-binding" ng-bind="stats.project['feedly_8'][1]|number">129,762,450</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['feedly_8']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>22</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://feedly.com/e/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>0</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=feedly_8">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['fos-hu']=!body['fos-hu']">
+ fos-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['fos-hu'][0]|number">15,958</td>
+<td class="table-number ng-binding" ng-bind="stats.project['fos-hu'][1]|number">672,650</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['fos-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://fos.hu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>\./\?nincsmeg</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=fos-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['fwdurl-net']=!body['fwdurl-net']">
+ fwdurl-net
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['fwdurl-net'][0]|number">6,510,326</td>
+<td class="table-number ng-binding" ng-bind="stats.project['fwdurl-net'][1]|number">35,151,181</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['fwdurl-net']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://fwdurl.net/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd>410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=fwdurl-net">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['hec-su']=!body['hec-su']">
+ hec-su
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['hec-su'][0]|number">13,938</td>
+<td class="table-number ng-binding" ng-bind="stats.project['hec-su'][1]|number">14,090</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['hec-su']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>https://hec.su/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=hec-su">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['hoblu-es']=!body['hoblu-es']">
+ hoblu-es
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['hoblu-es'][0]|number">25,401</td>
+<td class="table-number ng-binding" ng-bind="stats.project['hoblu-es'][1]|number">23,219,250</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['hoblu-es']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://hoblu.es/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404 302</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=hoblu-es">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['isgd_6']=!body['isgd_6']">
+ isgd_6
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['isgd_6'][0]|number">44,267,824</td>
+<td class="table-number ng-binding" ng-bind="stats.project['isgd_6'][1]|number">2,585,756,925</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['isgd_6']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>43</dd>
+<dt>Minimum pipeline version</dt>
+<dd>8</dd>
+<dt>URL</dt>
+<dd><code>https://is.gd/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^https://is\.gd/</dd>
+<dt>Redirect status</dt>
+<dd>301 302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=isgd_6">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['jdem-cz']=!body['jdem-cz']">
+ jdem-cz
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['jdem-cz'][0]|number">1</td>
+<td class="table-number ng-binding" ng-bind="stats.project['jdem-cz'][1]|number">410,450</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['jdem-cz']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>44</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://jdem.cz/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=jdem-cz">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['kcy-me']=!body['kcy-me']">
+ kcy-me
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['kcy-me'][0]|number">2,974,473</td>
+<td class="table-number ng-binding" ng-bind="stats.project['kcy-me'][1]|number">5,239,050</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['kcy-me']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>3</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://kcy.me/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd></dd>
+</dl>
+<a href="/api/project_settings?name=kcy-me">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['korta-nu']=!body['korta-nu']">
+ korta-nu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['korta-nu'][0]|number">183,948</td>
+<td class="table-number ng-binding" ng-bind="stats.project['korta-nu'][1]|number">15,879,800</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['korta-nu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>38</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://korta.nu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404 410</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=korta-nu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['lnk-sk']=!body['lnk-sk']">
+ lnk-sk
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['lnk-sk'][0]|number">82,310</td>
+<td class="table-number ng-binding" ng-bind="stats.project['lnk-sk'][1]|number">6,564,050</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['lnk-sk']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://lnk.sk/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^http://lnk\.sk/\?_fid=</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=lnk-sk">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['lurl-no']=!body['lurl-no']">
+ lurl-no
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['lurl-no'][0]|number">2,518</td>
+<td class="table-number ng-binding" ng-bind="stats.project['lurl-no'][1]|number">3,700</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['lurl-no']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://lurl.no/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=lurl-no">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['migre-me']=!body['migre-me']">
+ migre-me
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['migre-me'][0]|number">423,747,675</td>
+<td class="table-number ng-binding" ng-bind="stats.project['migre-me'][1]|number">441,363,315</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['migre-me']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>39</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://www.migre.me/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=migre-me">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['mrte-ch']=!body['mrte-ch']">
+ mrte-ch
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['mrte-ch'][0]|number">54,880,485</td>
+<td class="table-number ng-binding" ng-bind="stats.project['mrte-ch'][1]|number">113,153,450</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['mrte-ch']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://mrte.ch/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>(www\.mrtech\.com/|mrte\.ch)$</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>307</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=mrte-ch">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['mysp-ac']=!body['mysp-ac']">
+ mysp-ac
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['mysp-ac'][0]|number">15,916,704</td>
+<td class="table-number ng-binding" ng-bind="stats.project['mysp-ac'][1]|number">16,245,049</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['mysp-ac']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>33</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>https://mysp.ac/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.75</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 302</dd>
+<dt>No redirect status</dt>
+<dd>0</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=mysp-ac">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['news-ycombinator-com']=!body['news-ycombinator-com']">
+ news-ycombinator-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['news-ycombinator-com'][0]|number"></td>
+<td class="table-number ng-binding" ng-bind="stats.project['news-ycombinator-com'][1]|number"></td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['news-ycombinator-com']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>https://news.ycombinator.com/item?id={shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd>class="title"&gt;.*&lt;a href="([^"]+)"</dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>200</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=news-ycombinator-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['nig-gr']=!body['nig-gr']">
+ nig-gr
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['nig-gr'][0]|number">57,713</td>
+<td class="table-number ng-binding" ng-bind="stats.project['nig-gr'][1]|number">15,145,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['nig-gr']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>4</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://nig.gr/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>_0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>307</dd>
+<dt>No redirect status</dt>
+<dd>301</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=nig-gr">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['npm-me']=!body['npm-me']">
+ npm-me
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['npm-me'][0]|number"></td>
+<td class="table-number ng-binding" ng-bind="stats.project['npm-me'][1]|number"></td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['npm-me']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://example.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd>None</dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=npm-me">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['nsfw-in']=!body['nsfw-in']">
+ nsfw-in
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['nsfw-in'][0]|number">102,199</td>
+<td class="table-number ng-binding" ng-bind="stats.project['nsfw-in'][1]|number">2,469,650</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['nsfw-in']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>8</dd>
+<dt>URL</dt>
+<dd><code>http://nsfw.in/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd>&lt;span id="long_url"&gt;&lt;a href="([^"]+)"</dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>200</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=nsfw-in">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['oak-ctx-ly']=!body['oak-ctx-ly']">
+ oak-ctx-ly
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['oak-ctx-ly'][0]|number">7,408,862</td>
+<td class="table-number ng-binding" ng-bind="stats.project['oak-ctx-ly'][1]|number">30,217,950</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['oak-ctx-ly']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://oak.ctx.ly/r/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=oak-ctx-ly">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['ow-ly']=!body['ow-ly']">
+ ow-ly
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['ow-ly'][0]|number">360,102,605</td>
+<td class="table-number ng-binding" ng-bind="stats.project['ow-ly'][1]|number">367,074,900</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['ow-ly']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>27</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://ow.ly/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>410 500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=ow-ly">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['p-ly']=!body['p-ly']">
+ p-ly
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['p-ly'][0]|number">54,849</td>
+<td class="table-number ng-binding" ng-bind="stats.project['p-ly'][1]|number">1,205,082,200</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['p-ly']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://p.ly/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=p-ly">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['ph-ly']=!body['ph-ly']">
+ ph-ly
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['ph-ly'][0]|number">42,643</td>
+<td class="table-number ng-binding" ng-bind="stats.project['ph-ly'][1]|number">989,290,500</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['ph-ly']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>16</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://ph.ly/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=ph-ly">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['piciurl-hu']=!body['piciurl-hu']">
+ piciurl-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['piciurl-hu'][0]|number">3,146</td>
+<td class="table-number ng-binding" ng-bind="stats.project['piciurl-hu'][1]|number">288,650</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['piciurl-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>38</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://piciurl.hu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz_</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=piciurl-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['poeurl-com3']=!body['poeurl-com3']">
+ poeurl-com3
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['poeurl-com3'][0]|number">7,620</td>
+<td class="table-number ng-binding" ng-bind="stats.project['poeurl-com3'][1]|number">166,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['poeurl-com3']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://poeurl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>home\.php\?e=</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=poeurl-com3">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['pub-vitrue-com']=!body['pub-vitrue-com']">
+ pub-vitrue-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['pub-vitrue-com'][0]|number">665,766</td>
+<td class="table-number ng-binding" ng-bind="stats.project['pub-vitrue-com'][1]|number">15,067,550</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['pub-vitrue-com']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>10</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://pub.vitrue.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404 200</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=pub-vitrue-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['qr-cx']=!body['qr-cx']">
+ qr-cx
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['qr-cx'][0]|number">490,755</td>
+<td class="table-number ng-binding" ng-bind="stats.project['qr-cx'][1]|number">2,698,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['qr-cx']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://qr.cx/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.8</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404 200</dd>
+<dt>Unavailable status</dt>
+<dd>410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=qr-cx">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['rlu-ru']=!body['rlu-ru']">
+ rlu-ru
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['rlu-ru'][0]|number">5,004,226</td>
+<td class="table-number ng-binding" ng-bind="stats.project['rlu-ru'][1]|number">5,137,100</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['rlu-ru']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://rlu.ru/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=rlu-ru">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['rod-gs']=!body['rod-gs']">
+ rod-gs
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['rod-gs'][0]|number">59,162</td>
+<td class="table-number ng-binding" ng-bind="stats.project['rod-gs'][1]|number">275,100</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['rod-gs']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://rod.gs/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=rod-gs">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['s-id']=!body['s-id']">
+ s-id
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['s-id'][0]|number">20,901</td>
+<td class="table-number ng-binding" ng-bind="stats.project['s-id'][1]|number">19,268,596</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['s-id']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://s.id/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd>window\.location *= *'([^']+)'</dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>200</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=s-id">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['shar-es']=!body['shar-es']">
+ shar-es
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['shar-es'][0]|number">960,379,579</td>
+<td class="table-number ng-binding" ng-bind="stats.project['shar-es'][1]|number">1,031,784,400</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['shar-es']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>19</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://shar.es/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd>&lt;a id="clickthrough"\s+href="(.*)(?:"&gt;|\r\n)</dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 200</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=shar-es">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['shortdoi-org']=!body['shortdoi-org']">
+ shortdoi-org
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['shortdoi-org'][0]|number">10,809</td>
+<td class="table-number ng-binding" ng-bind="stats.project['shortdoi-org'][1]|number">113,944</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['shortdoi-org']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://dx.doi.org/10/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=shortdoi-org">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['shortn-me']=!body['shortn-me']">
+ shortn-me
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['shortn-me'][0]|number">131,028</td>
+<td class="table-number ng-binding" ng-bind="stats.project['shortn-me'][1]|number">1,008,050</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['shortn-me']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://shortn.me/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>index\.php</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=shortn-me">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['shrt-st']=!body['shrt-st']">
+ shrt-st
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['shrt-st'][0]|number">726,389</td>
+<td class="table-number ng-binding" ng-bind="stats.project['shrt-st'][1]|number">738,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['shrt-st']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>3</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://shrt.st/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd></dd>
+</dl>
+<a href="/api/project_settings?name=shrt-st">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['snipurl']=!body['snipurl']">
+ snipurl
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['snipurl'][0]|number">27,486,693</td>
+<td class="table-number ng-binding" ng-bind="stats.project['snipurl'][1]|number">181,015,750</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['snipurl']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>32</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://snipurl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>00123456789abcdefghijklmnopqrstuvwxyz-_~</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>410 404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=snipurl">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['snipurl_range2']=!body['snipurl_range2']">
+ snipurl_range2
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['snipurl_range2'][0]|number">160,496,612</td>
+<td class="table-number ng-binding" ng-bind="stats.project['snipurl_range2'][1]|number">293,372,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['snipurl_range2']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>36</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://snipurl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>00123456789abcdefghijklmnopqrstuvwxyz-_~</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>410 404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=snipurl_range2">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['spne-ws']=!body['spne-ws']">
+ spne-ws
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['spne-ws'][0]|number">6,898</td>
+<td class="table-number ng-binding" ng-bind="stats.project['spne-ws'][1]|number">134,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['spne-ws']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://spne.ws/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>www\.siliconprairienews\.com/\?awesm=</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=spne-ws">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['srtn-us']=!body['srtn-us']">
+ srtn-us
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['srtn-us'][0]|number">48,443</td>
+<td class="table-number ng-binding" ng-bind="stats.project['srtn-us'][1]|number">55,800</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['srtn-us']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>4</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://srtn.us/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=srtn-us">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['sx3-se']=!body['sx3-se']">
+ sx3-se
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['sx3-se'][0]|number">948</td>
+<td class="table-number ng-binding" ng-bind="stats.project['sx3-se'][1]|number">7,200</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['sx3-se']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://sx3.se/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404 302</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=sx3-se">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['t7-hu']=!body['t7-hu']">
+ t7-hu
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['t7-hu'][0]|number">93,242</td>
+<td class="table-number ng-binding" ng-bind="stats.project['t7-hu'][1]|number">585,800</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['t7-hu']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>16</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://t7.hu/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>00123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=t7-hu">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['techme-me']=!body['techme-me']">
+ techme-me
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['techme-me'][0]|number">14,537,982</td>
+<td class="table-number ng-binding" ng-bind="stats.project['techme-me'][1]|number">152,210,000</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['techme-me']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://techme.me/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=techme-me">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tighturl-com']=!body['tighturl-com']">
+ tighturl-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tighturl-com'][0]|number">1,440,717</td>
+<td class="table-number ng-binding" ng-bind="stats.project['tighturl-com'][1]|number">3,123,300</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tighturl-com']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>11</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://tighturl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 401 500 403</dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tighturl-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tiny-pl']=!body['tiny-pl']">
+ tiny-pl
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tiny-pl'][0]|number">730,015</td>
+<td class="table-number ng-binding" ng-bind="stats.project['tiny-pl'][1]|number">20,229,750</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tiny-pl']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://tiny.pl/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>http://tiny\.pl/404\.php|^$</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tiny-pl">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tiny-tw']=!body['tiny-tw']">
+ tiny-tw
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tiny-tw'][0]|number">813,979</td>
+<td class="table-number ng-binding" ng-bind="stats.project['tiny-tw'][1]|number">1,778,200</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tiny-tw']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://tiny.tw/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>^$</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tiny-tw">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tinyurl-hu_4']=!body['tinyurl-hu_4']">
+ tinyurl-hu_4
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tinyurl-hu_4'][0]|number">2,152,231</td>
+<td class="table-number ng-binding" ng-bind="stats.project['tinyurl-hu_4'][1]|number">20,308,700</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tinyurl-hu_4']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>39</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://tinyurl.hu/{shortcode}/</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd>&lt;b&gt;&lt;/b&gt; &lt;a href="(.*)"&gt;</dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>200 301</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tinyurl-hu_4">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tmblr-co']=!body['tmblr-co']">
+ tmblr-co
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tmblr-co'][0]|number"></td>
+<td class="table-number ng-binding" ng-bind="stats.project['tmblr-co'][1]|number"></td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tmblr-co']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>42</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://www.tumblr.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tmblr-co">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['tr-im_gravity4']=!body['tr-im_gravity4']">
+ tr-im_gravity4
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['tr-im_gravity4'][0]|number">1,549,882</td>
+<td class="table-number ng-binding" ng-bind="stats.project['tr-im_gravity4'][1]|number">42,813,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['tr-im_gravity4']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>11</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>https://tr.im/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=tr-im_gravity4">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['trap-it']=!body['trap-it']">
+ trap-it
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['trap-it'][0]|number">40,203</td>
+<td class="table-number ng-binding" ng-bind="stats.project['trap-it'][1]|number">3,130,300</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['trap-it']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>26</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://trap.it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>00123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>2.0</dd>
+<dt>Parse regex</dt>
+<dd>content="\d+; ?url=([^"]+)"</dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302 200</dd>
+<dt>No redirect status</dt>
+<dd>400 404 500</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=trap-it">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['u-to']=!body['u-to']">
+ u-to
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['u-to'][0]|number">13,315,311</td>
+<td class="table-number ng-binding" ng-bind="stats.project['u-to'][1]|number">54,190,499</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['u-to']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>38</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://u.to/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>get</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=u-to">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['ur1-ca']=!body['ur1-ca']">
+ ur1-ca
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['ur1-ca'][0]|number">19,923,112</td>
+<td class="table-number ng-binding" ng-bind="stats.project['ur1-ca'][1]|number">25,560,250</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['ur1-ca']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>16</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://ur1.ca/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>00123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd>410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=ur1-ca">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['url-ie']=!body['url-ie']">
+ url-ie
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['url-ie'][0]|number">685,478</td>
+<td class="table-number ng-binding" ng-bind="stats.project['url-ie'][1]|number">1,707,061</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['url-ie']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://url.ie/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 403</dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=url-ie">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['vbly-us']=!body['vbly-us']">
+ vbly-us
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['vbly-us'][0]|number">124,325</td>
+<td class="table-number ng-binding" ng-bind="stats.project['vbly-us'][1]|number">630,550</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['vbly-us']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>22</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://vbly.us/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>http://vb\.ly/spam\.php</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>307</dd>
+<dt>Unavailable status</dt>
+<dd>410</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=vbly-us">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['viddy-it']=!body['viddy-it']">
+ viddy-it
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['viddy-it'][0]|number">43,130</td>
+<td class="table-number ng-binding" ng-bind="stats.project['viddy-it'][1]|number">832,351,700</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['viddy-it']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>8</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://www.viddy.it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.05</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=viddy-it">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['waa-ai']=!body['waa-ai']">
+ waa-ai
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['waa-ai'][0]|number">384,914</td>
+<td class="table-number ng-binding" ng-bind="stats.project['waa-ai'][1]|number">2,182,850</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['waa-ai']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>8</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>https://waa.ai/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>waa\.ai/error</dd>
+<dt>Redirect status</dt>
+<dd>301 302</dd>
+<dt>No redirect status</dt>
+<dd>303</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=waa-ai">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['wowurl-com']=!body['wowurl-com']">
+ wowurl-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['wowurl-com'][0]|number">1,713,131</td>
+<td class="table-number ng-binding" ng-bind="stats.project['wowurl-com'][1]|number">18,556,750</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['wowurl-com']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://wowurl.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=wowurl-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['xco']=!body['xco']">
+ xco
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['xco'][0]|number">73,010,199</td>
+<td class="table-number ng-binding" ng-bind="stats.project['xco'][1]|number">80,319,800</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['xco']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>6</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://x.co/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd></dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=xco">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['xrl-us']=!body['xrl-us']">
+ xrl-us
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['xrl-us'][0]|number">6,913,759</td>
+<td class="table-number ng-binding" ng-bind="stats.project['xrl-us'][1]|number">161,601,700</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['xrl-us']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>15</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://xrl.us/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd>410 504</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=xrl-us">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['xrl-us_lowercase']=!body['xrl-us_lowercase']">
+ xrl-us_lowercase
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['xrl-us_lowercase'][0]|number">387,773</td>
+<td class="table-number ng-binding" ng-bind="stats.project['xrl-us_lowercase'][1]|number">28,675,900</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['xrl-us_lowercase']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>15</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://xrl.us/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>200</dd>
+<dt>Unavailable status</dt>
+<dd>410 504</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=xrl-us_lowercase">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['xurl-es']=!body['xurl-es']">
+ xurl-es
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['xurl-es'][0]|number">245,001</td>
+<td class="table-number ng-binding" ng-bind="stats.project['xurl-es'][1]|number">18,386,900</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['xurl-es']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://xurl.es/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>http://xurl.es</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=xurl-es">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['xxsurl-de']=!body['xxsurl-de']">
+ xxsurl-de
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['xxsurl-de'][0]|number">1,303,470</td>
+<td class="table-number ng-binding" ng-bind="stats.project['xxsurl-de'][1]|number">3,097,300</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['xxsurl-de']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://xxsURL.de/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429 500</dd>
+</dl>
+<a href="/api/project_settings?name=xxsurl-de">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['y-ahoo-it_5']=!body['y-ahoo-it_5']">
+ y-ahoo-it_5
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['y-ahoo-it_5'][0]|number">20,184,449</td>
+<td class="table-number ng-binding" ng-bind="stats.project['y-ahoo-it_5'][1]|number">982,090,300</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['y-ahoo-it_5']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>4</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://y.ahoo.it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429 999 404 504 400</dd>
+</dl>
+<a href="/api/project_settings?name=y-ahoo-it_5">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['y-ahoo-it_6']=!body['y-ahoo-it_6']">
+ y-ahoo-it_6
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['y-ahoo-it_6'][0]|number">2,120,422</td>
+<td class="table-number ng-binding" ng-bind="stats.project['y-ahoo-it_6'][1]|number">1,670,279,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['y-ahoo-it_6']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>4</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://y.ahoo.it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.4</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429 999 404 504 400</dd>
+</dl>
+<a href="/api/project_settings?name=y-ahoo-it_6">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['y-ahoo-it_8']=!body['y-ahoo-it_8']">
+ y-ahoo-it_8
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['y-ahoo-it_8'][0]|number">9,155</td>
+<td class="table-number ng-binding" ng-bind="stats.project['y-ahoo-it_8'][1]|number">1,952,022,300</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['y-ahoo-it_8']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>4</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://y.ahoo.it/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>0.4</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>301</dd>
+<dt>No redirect status</dt>
+<dd>302</dd>
+<dt>Unavailable status</dt>
+<dd>500</dd>
+<dt>Banned status</dt>
+<dd>403 420 429 999 404 504 400</dd>
+</dl>
+<a href="/api/project_settings?name=y-ahoo-it_8">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['yatuc']=!body['yatuc']">
+ yatuc
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['yatuc'][0]|number">33,631</td>
+<td class="table-number ng-binding" ng-bind="stats.project['yatuc'][1]|number">597,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['yatuc']">
+
+<p class="text-success">This service use custom script.</p>
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>16</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://yatuc.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz_$</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 403</dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=yatuc">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['yatuc-com']=!body['yatuc-com']">
+ yatuc-com
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['yatuc-com'][0]|number">31,922</td>
+<td class="table-number ng-binding" ng-bind="stats.project['yatuc-com'][1]|number">7,945,300</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['yatuc-com']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://yatuc.com/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz_</code></dd>
+<dt>Delay</dt>
+<dd>0.5</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>http://yatuc.com</dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200 403</dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=yatuc-com">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['yoolink-to']=!body['yoolink-to']">
+ yoolink-to
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['yoolink-to'][0]|number">213,563</td>
+<td class="table-number ng-binding" ng-bind="stats.project['yoolink-to'][1]|number">344,150</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['yoolink-to']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>8</dd>
+<dt>Minimum pipeline version</dt>
+<dd>1</dd>
+<dt>URL</dt>
+<dd><code>http://yoolink.to/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</code></dd>
+<dt>Delay</dt>
+<dd>1.0</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd>None</dd>
+<dt>Redirect status</dt>
+<dd>302</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>403 200 500</dd>
+<dt>Banned status</dt>
+<dd>420 429</dd>
+</dl>
+<a href="/api/project_settings?name=yoolink-to">json</a>
+</div>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-default">
+<div class="panel-heading" ng-click="body['zurl-ws']=!body['zurl-ws']">
+ zurl-ws
+</div>
+<table class="table table-bordered">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr>
+<th>Found</th>
+<th>Scanned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="table-number ng-binding" ng-bind="stats.project['zurl-ws'][0]|number">2,647</td>
+<td class="table-number ng-binding" ng-bind="stats.project['zurl-ws'][1]|number">2,139,600</td>
+</tr>
+</tbody>
+</table>
+<div class="panel-body ng-hide" ng-show="body['zurl-ws']">
+
+<dl>
+<dt>Minimum library version</dt>
+<dd>45</dd>
+<dt>Minimum pipeline version</dt>
+<dd>7</dd>
+<dt>URL</dt>
+<dd><code>http://zurl.ws/{shortcode}</code></dd>
+<dt>Method</dt>
+<dd>head</dd>
+<dt>Alphabet set</dt>
+<dd><code>0123456789abcdefghijklmnopqrstuvwxyz</code></dd>
+<dt>Delay</dt>
+<dd>1.62</dd>
+<dt>Parse regex</dt>
+<dd></dd>
+<dt>Location regex</dt>
+<dd></dd>
+<dt>Redirect status</dt>
+<dd>301 302 303 307</dd>
+<dt>No redirect status</dt>
+<dd>404</dd>
+<dt>Unavailable status</dt>
+<dd>200</dd>
+<dt>Banned status</dt>
+<dd>403 420 429</dd>
+</dl>
+<a href="/api/project_settings?name=zurl-ws">json</a>
+</div>
+</div>
+</div>
+</div>
+```

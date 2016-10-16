@@ -1,0 +1,210 @@
+`http://www.hongkiat.com/blog/url-shortening-services-the-ultimate-list/` 
+
+```
+<table class="tbl01" cellpadding="0" cellspacing="0"><thead><tr><td>Service Name</td>
+<td>After shortened (sample)</td>
+<td>More Options?</td>
+<td>Bookmarklet</td>
+<td>API</td>
+</tr></thead><tbody><tr><td><a target="_blank" href="http://7.ly/">7.ly</a></td>
+<td>http://7.ly/mJdF</td>
+<td>Validity time, custom Short-URL, password</td>
+<td><a target="_blank" href="http://7.ly/bookmarklet">Yes</a></td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://adf.ly/">http://adf.ly/</a></td>
+<td>http://adf.ly/1W5Afz</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://admy.link/">http://admy.link/</a></td>
+<td>http://admy.link/e8e607</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://al.ly/">http://al.ly/</a></td>
+<td>http://al.ly/c8s7a</td>
+<td>Custom alias, password, description, geotargetting, URL redirect</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://bc.vc/">http://bc.vc/</a></td>
+<td>http://bc.vc/rRokjf</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://bit.do/">http://bit.do/</a></td>
+<td>http://bit.do/hkdc</td>
+<td>Custom short link</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://doiop.com/">http://doiop.com/</a></td>
+<td>http://doiop.com/hkdc</td>
+<td>Custom short link</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://fur.ly/">http://fur.ly/</a></td>
+<td>http://fur.ly/ct2u</td>
+<td>Custom short link</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://good.ly/">http://good.ly/</a></td>
+<td>http://fave.co/1Ke5cL1</td>
+<td>No</td>
+<td><a target="_blank" href="http://good.ly/-bookmarklet">Yes</a></td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://is.gd/">http://is.gd/</a></td>
+<td>http://is.gd/dxJMSL</td>
+<td>Custom short link, standard / lower case, log statistic</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://www.xn--vi8hiv.ws/">linkmoji</a></td>
+<td>http://🌽🚀📦🍉🍎🐹🐶🍒.🍕💩.ws</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://lnked.in/">http://lnked.in/</a></td>
+<td>http://lnked.in/hongkiat</td>
+<td>Custom short URL, password protect</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://lynk.my/">http://lynk.my/</a></td>
+<td>http://lynk.my/rn7X</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://mcaf.ee/">http://mcaf.ee/</a></td>
+<td>http://mcaf.ee/bf93wz</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://ouo.io/">http://ouo.io/</a></td>
+<td>http://ouo.io/JStia</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://ow.ly/url/shorten-url">http://ow.ly/url/shorten-url</a></td>
+<td>http://ow.ly/YJxa1 </td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://ph.dog/">http://ph.dog/</a></td>
+<td>http://ph.dog/pf7r</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://qr.net/">http://qr.net/</a></td>
+<td>http://qr.net/by8dR</td>
+<td>custom Short-URL, validity, password for statistic, QR code enabled</td>
+<td><a target="_blank" href="http://qr.net/bookmarklet">Yes</a></td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://s.id/">http://s.id/</a></td>
+<td>http://s.id/OO</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://shrinkee.com/">http://shrinkee.com/</a></td>
+<td>http://shrinkee.com/yj7z</td>
+<td>Custom URL, password, expiry date, total uses</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://shrinkurl.in/">http://shrinkurl.in/</a></td>
+<td>http://shrinkurl.in/s17xS</td>
+<td>Custom alias, password, description, geotargetting, URL redirect</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://sptfy.com/">http://sptfy.com/</a></td>
+<td>http://sptfy.com/2a06</td>
+<td>Custom URL, password, expiry date, total uses, public / private URL</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://thinfi.com/">http://thinfi.com/</a></td>
+<td>http://thinfi.com/xsd</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://tiny.cc/">http://tiny.cc/</a></td>
+<td>http://tiny.cc/y9dh9x</td>
+<td>Custom URL, log stat</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://tinyurl.com/">http://tinyurl.com/</a></td>
+<td>http://tinyurl.com/ps7a8m</td>
+<td>Custom alias</td>
+<td>Yes</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://tny.im/">http://tny.im/</a></td>
+<td>http://tny.im/3QC</td>
+<td>Custom keyword, custom title, click limit, time limit</td>
+<td><a target="_blank" href="http://tny.im/bookmarklets.php">Yes</a></td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://urlkr.com/">http://urlkr.com/</a></td>
+<td>http://flic.kr/p/e4aQGJ</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="http://v.gd/">http://v.gd/</a></td>
+<td>http://v.gd/v42lvX</td>
+<td>Custom short link, standard / lower case, log statistic</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://y2u.be/">http://y2u.be/</a></td>
+<td>http://y2u.be/j4dMnAPZu70</td>
+<td>Short URL and very short URL</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://zi.ma/">http://zi.ma/</a></td>
+<td>http://zi.ma/tajk83/</td>
+<td>Custom URL</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="http://zzb.bz/">http://zzb.bz/</a></td>
+<td>http://zzb.bz/hongkiat</td>
+<td>Custom URL, password protect, description</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="https://adfoc.us/">https://adfoc.us/</a></td>
+<td>http://adfoc.us/x57698211</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="https://bitly.com/">https://bitly.com/</a></td>
+<td>http://bit.ly/1VG90pk</td>
+<td>Statistic</td>
+<td>No</td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="https://coinurl.com/">https://coinurl.com/</a></td>
+<td>http://cur.lv/vtmo8</td>
+<td>Custom URL</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="https://git.io/">https://git.io/</a></td>
+<td>https://git.io/uBJdZg</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="https://goo.gl/">https://goo.gl/</a></td>
+<td>http://goo.gl/wJUjQ1</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="https://hec.su/">https://hec.su/</a></td>
+<td>https://hec.su/c1Z9</td>
+<td>No</td>
+<td><a target="_blank" href="https://hec.su/">Yes</a></td>
+<td>Yes</td>
+</tr><tr><td><a target="_blank" href="https://shorte.st/">https://shorte.st/</a></td>
+<td>http://sh.st/EE9BN</td>
+<td>No</td>
+<td>No</td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="https://tldrify.com">https://tldrify.com</a></td>
+<td>http://tldrify.com/f9q</td>
+<td>No</td>
+<td><a target="_blank" href="https://chrome.google.com/webstore/detail/tldrify/dbphpdgmhigmaepjklmklmlcoinihjdo">Yes</a></td>
+<td>–</td>
+</tr><tr><td><a target="_blank" href="https://tr.im/">https://tr.im/</a></td>
+<td>https://tr.im/SkrgZ</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr></tbody></table>
+```
